@@ -155,7 +155,7 @@ Enter your choice: _
 3. Enter **Name** (string, can contain spaces)
 4. Enter **Age** (integer, validated range)
 5. Enter **Course** (string, e.g., "Computer Science")
-6. Enter **GPA** (decimal, typically 0.0 - 10.0)
+6. Enter **GPA** (decimal, typically 0.0 - 4.0)
 
 **Example:**
 ```
@@ -178,8 +178,8 @@ Select option **2** to view all records in a formatted table:
 ========================================
 ID        | Name           | Age | Course              | GPA
 ----------|----------------|-----|---------------------|------
-CS2024A   | Terish       | 18  | Computer Science    | 9.75
-ENG123B   | Maneesh    | 21  | Engineering         | 9.90
+CS2024A   | Terish         | 18  | Computer Science    | 3.75
+ENG123B   | Jane Smith     | 21  | Engineering         | 3.90
 ========================================
 Total Students: 2
 ========================================
@@ -265,11 +265,11 @@ The data file uses a simple line-based format:
 1000
 CS2024A
 Terish
-18
+20
 Computer Science
 9.75
 ENG123B
-Jane Smith
+Maneesh
 21
 Engineering
 9.90
@@ -295,7 +295,7 @@ Engineering
 
 ### GPA
 - Must be a decimal number
-- Typical range: 0.0-4.0 (US system)
+- Typical range: 0.0-10.0 (US system)
 - Can be adjusted for other grading systems (0-10, 0-100, etc.)
 
 ### Name and Course
@@ -464,6 +464,12 @@ This project is provided as-is for educational purposes. Feel free to modify and
 - Check the Common Issues section above
 - Review the code comments in source files
 - Open an issue describing your problem
+
+**Want to extend this project?**
+Tell me what feature you'd like to add next, and I can provide guidance on implementation!
+
+---
+
 **Version**: 1.0  
 **Language**: C++11  
 **Platform**: Cross-platform (Windows, Linux, macOS)  
