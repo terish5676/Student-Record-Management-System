@@ -460,7 +460,7 @@ This project is provided as-is for educational purposes. Feel free to modify and
 
 ## Support
 
-**Need help?** 
+**Need help?**  n
 - Check the Common Issues section above
 - Review the code comments in source files
 - Open an issue describing your problem
