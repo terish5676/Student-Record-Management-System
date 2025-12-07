@@ -176,10 +176,10 @@ Select option **2** to view all records in a formatted table:
 ========================================
            All Students
 ========================================
-ID        | Name           | Age | Course              | GPA
-----------|----------------|-----|---------------------|------
-CS2024A   | Terish         | 18  | Computer Science    | 3.75
-ENG123B   | Jane Smith     | 21  | Engineering         | 3.90
+ID        | Name        | Age | Course              | GPA
+----------|-------------|-----|---------------------|------
+CS2024A   | Terish      | 18  | Computer Science    | 9.75
+ENG123B   | Maneesh     | 21  | Engineering         | 9.90
 ========================================
 Total Students: 2
 ========================================
@@ -460,7 +460,7 @@ This project is provided as-is for educational purposes. Feel free to modify and
 
 ## Support
 
-**Need help?**  n
+**Need help?** 
 - Check the Common Issues section above
 - Review the code comments in source files
 - Open an issue describing your problem
