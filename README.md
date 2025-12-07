@@ -473,4 +473,8 @@ Tell me what feature you'd like to add next, and I can provide guidance on imple
 **Version**: 1.0  
 **Language**: C++11  
 **Platform**: Cross-platform (Windows, Linux, macOS)  
+<<<<<<< HEAD
 **Type**: Educational Console Application
+=======
+**Type**: Educational Console Application
+>>>>>>> b77bdc345ba0efbf3549ebf9bc6467f13d1145aa
