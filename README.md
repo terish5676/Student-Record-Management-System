@@ -155,15 +155,15 @@ Enter your choice: _
 3. Enter **Name** (string, can contain spaces)
 4. Enter **Age** (integer, validated range)
 5. Enter **Course** (string, e.g., "Computer Science")
-6. Enter **GPA** (decimal, typically 0.0 - 4.0)
+6. Enter **GPA** (decimal, typically 0.0 - 10.0)
 
 **Example:**
 ```
 Enter Student ID: CS2024A
-Enter Name: John Doe
-Enter Age: 20
+Enter Name: Terish
+Enter Age: 18
 Enter Course: Computer Science
-Enter GPA: 3.75
+Enter GPA: 9.75
 
 Student added successfully!
 ```
@@ -178,8 +178,8 @@ Select option **2** to view all records in a formatted table:
 ========================================
 ID        | Name           | Age | Course              | GPA
 ----------|----------------|-----|---------------------|------
-CS2024A   | John Doe       | 20  | Computer Science    | 3.75
-ENG123B   | Jane Smith     | 21  | Engineering         | 3.90
+CS2024A   | Terish       | 18  | Computer Science    | 9.75
+ENG123B   | Maneesh    | 21  | Engineering         | 9.90
 ========================================
 Total Students: 2
 ========================================
@@ -198,10 +198,10 @@ Enter Student ID to search: CS2024A
 Student Found:
 --------------
 ID: CS2024A
-Name: John Doe
-Age: 20
+Name: Terish
+Age: 18
 Course: Computer Science
-GPA: 3.75
+GPA: 9.75
 ```
 
 ### Updating a Student
@@ -218,8 +218,8 @@ GPA: 3.75
 **Example:**
 ```
 Enter Student ID to update: CS2024A
-Current GPA: 3.75
-Enter new GPA: 3.85
+Current GPA: 9.75
+Enter new GPA: 9.85
 
 Student updated successfully!
 ```
@@ -264,15 +264,15 @@ The data file uses a simple line-based format:
 ```
 1000
 CS2024A
-John Doe
-20
+Terish
+18
 Computer Science
-3.75
+9.75
 ENG123B
 Jane Smith
 21
 Engineering
-3.90
+9.90
 ```
 
 **Note**: Each student record occupies exactly 5 lines after the first line.
@@ -353,7 +353,7 @@ if (age < 1 || age > 150) {
 }
 
 // GPA validation
-if (gpa < 0.0 || gpa > 4.0) {
+if (gpa < 0.0 || gpa > 10.0) {
     cout << "Invalid GPA. Please enter between 0.0 and 4.0." << endl;
     return;
 }
