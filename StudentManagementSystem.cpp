@@ -275,7 +275,7 @@ void StudentManagementSystem::updateStudent() {
         case 4: {
             float gpa;
             cout << "Enter new GPA: ";
-            while (!(cin >> gpa) || gpa < 0.0 || gpa >= 10.0) {
+            while (!(cin >> gpa) || gpa < 0.0 || gpa >10.0) {
                 cout << "Invalid GPA! Enter again: ";
                 clearInputBuffer();
             }
@@ -304,7 +304,7 @@ void StudentManagementSystem::updateStudent() {
             students[index].setCourse(course);
 
             cout << "Enter new GPA: ";
-            while (!(cin >> gpa) || gpa < 0.0 || gpa > 4.0) {
+            while (!(cin >> gpa) || gpa < 0.0 || gpa > 10.0) {
                 cout << "Invalid GPA! Enter again: ";
                 clearInputBuffer();
             }
